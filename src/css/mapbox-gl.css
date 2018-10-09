@@ -217,18 +217,26 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact {
 
 @media screen {
     .mapboxgl-ctrl-attrib.mapboxgl-compact {
-        padding-top: 2px;
-        padding-bottom: 2px;
+        padding: 0;
         margin: 0 10px 10px;
         position: relative;
         padding-right: 24px;
         background-color: #fff;
         border-radius: 3px 12px 12px 3px;
-        visibility: hidden;
+        visibility: visible;
     }
 
     .mapboxgl-ctrl-attrib.mapboxgl-compact:hover {
+        padding: 2px 24px 2px 4px;
         visibility: visible;
+    }
+
+    .mapboxgl-ctrl-attrib.mapboxgl-compact > a {
+      display: none;
+    }
+
+    .mapboxgl-ctrl-attrib.mapboxgl-compact:hover > a {
+      display: inline;
     }
 
     .mapboxgl-ctrl-attrib.mapboxgl-compact::after {
