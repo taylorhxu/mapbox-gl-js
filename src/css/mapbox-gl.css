@@ -217,13 +217,13 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact {
 
 @media screen {
     .mapboxgl-ctrl-attrib.mapboxgl-compact {
-        padding: 0;
+        /* padding: 0; */
         margin: 0 10px 10px;
         position: relative;
-        padding-right: 24px;
+        /* padding-right: 24px; */
         background-color: #fff;
         border-radius: 3px 12px 12px 3px;
-        visibility: visible;
+        /* visibility: visible; */
     }
 
     .mapboxgl-ctrl-attrib.mapboxgl-compact:hover {
